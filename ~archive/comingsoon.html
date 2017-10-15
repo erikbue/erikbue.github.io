@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erik Bue's Stuff</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+  </head>
+
+  <body class="body">
+
+  	
+	<div class="comingsoon">
+		<div class="twelve columns">
+			<div class="comingsoon_text2">&#128640;</div>
+        <div class="comingsoon_text">Preparing to launch</div>
+      <div class="comingsoon_text3">please check back soon!</div>
+		</div>
+	</div>
+
+
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/parallax-min.js"></script>
+    <script src="js/main.js"></script>
+		<script src="js/jquery.scrollTo.min.js"></script>
+
+
+    	<!-- Menu header appears on scroll -->
+    	<script>
+	        $(window).scroll(function () {
+	            var scroll = $(window).scrollTop();
+
+	            if (scroll >= 200) {
+	                $(".mainHeader2").css({top: "0px"});
+	            }
+	            else{
+	            	$(".mainHeader2").css({top: "-70px"});
+	            }
+	        });
+        </script>
+
+
+  </body>
+</html>

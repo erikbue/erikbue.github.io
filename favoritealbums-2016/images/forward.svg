@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="21px" viewBox="0 0 32 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>forward</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-10" sketch:type="MSArtboardGroup" transform="translate(-249.000000, -744.000000)" fill="#000000">
+            <g id="player-controls" sketch:type="MSLayerGroup" transform="translate(140.000000, 738.000000)">
+                <path d="M124.5,17.893867 L110.725861,25.9786879 C109.774533,26.5370756 109,26.0986975 109,24.9971317 L109,7.98625457 C109,6.89403687 109.76552,6.46099018 110.709837,7.03989744 L124.5,15.493867 L124.5,7.98625457 C124.5,6.89403687 125.26552,6.45786055 126.209837,7.03290721 L140.290163,15.6071956 C141.236794,16.1836515 141.227306,17.1051066 140.274139,17.6684707 L126.225861,25.9716322 C125.274533,26.5339092 124.5,26.0986975 124.5,24.9971317 L124.5,17.893867 Z" id="forward" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="30" cy="30" rx="30" ry="30"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-573.000000, -360.000000)">
+            <g id="Group" transform="translate(573.000000, 349.000000)">
+                <g id="play" transform="translate(0.000000, 11.000000)">
+                    <use id="Oval" stroke="#F7F7F7" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    <path d="M41.3521652,29.3622093 C42.2622392,29.9905938 42.2649123,31.0075606 41.3521652,31.6377907 L23.6478348,43.8622093 C22.7377608,44.4905938 22,44.1002873 22,43.0067126 L22,17.9932874 C22,16.8924252 22.7350877,16.5075606 23.6478348,17.1377907 L41.3521652,29.3622093 Z" id="Triangle" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

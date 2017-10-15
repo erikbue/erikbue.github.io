@@ -1,0 +1,369 @@
+@font-face {
+  font-family: ChronicleDisplayBlack;
+  src: url(../fonts/ChronicleDisp-Black.otf); }
+body {
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  margin: 0px;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 16px;
+  background: #1f1f1f; }
+
+.wrapper {
+  max-width: 1200px;
+  justify-content: center;
+  background-color: #1f1f1f; }
+
+.album-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto; }
+  .album-section img {
+    width: 100%;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3); }
+
+
+.number {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.6); 
+  position: absolute;
+  }
+  .number span {
+    font-size: 28px; }
+
+.artist {
+  font-family: "ChronicleDisplayBlack", serif;
+  font-size: 42px;
+  line-height: 1;
+  color: white;
+  margin-top: 40px; }
+  .artist.saosin {
+    color: #7a7a7a; }
+  .artist.marshmello {
+    color: #95a4da; }
+  .artist.drake {
+    color: #65767d; }
+  .artist.years {
+    color: #92a980; }
+  .artist.kanye {
+    color: #f58b57; }
+  .artist.stlucia {
+    color: #e0ae75; }
+  .artist.tycho {
+    color: #ad4232; }
+  .artist.chance {
+    color: #fe6e65; }
+  .artist.hotelier {
+    color: #9a9553; }
+  .artist.boniver {
+    color: #ff4e02; }
+
+.album {
+  display: flex;
+  color: rgba(255, 255, 255, 0.9); 
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  flex: none;
+  align-self: baseline;
+  padding-right: 5px; }
+
+.date {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  flex: none;
+  align-self: baseline;
+  padding-left: 5px; }
+
+.dots {
+  flex: auto;
+  background: url("../images/dot_white.svg") center 1.25em space no-repeat;
+  opacity: 0.3; }
+
+.spotify {
+  position: relative;
+  margin-top: 10px;
+  margin-left: -5px; }
+  .spotify iframe {
+    position: absolute;
+    filter: contrast(110%); }
+  .spotify .spotify-cover1 {
+    position: absolute;
+    height: 80px;
+    width: 220px;
+    top: 0;
+    left: 84px;
+    background-color: #1f1f1f; }
+  .spotify .spotify-cover2 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 80px;
+    left: 0;
+    background-color: #1f1f1f; }
+  .spotify .song-title {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 100px; }
+
+.hr-top {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.3);
+  position: absolute;
+  top: -5px;
+  z-index: 10;
+}
+
+.hr-bottom {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.3);
+  position: absolute;
+  top: 85px;
+  z-index: 10;
+}
+
+.tracklist {
+  margin-top: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5); }
+  .tracklist ol {
+    /*list-style: none;*/
+    /*counter-reset: li;*/
+    padding-left: 70px; }
+    .tracklist ol li {
+      /*counter-increment: li;*/
+      position: relative; }
+      .tracklist ol li span {
+        /*counter-increment: li;*/
+        color: rgba(255, 255, 255, 0.9); }
+  .tracklist a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease; }
+    .tracklist a img {
+      position: absolute;
+      left: -70px;
+      top: 5px; }
+    .tracklist a svg {
+      position: absolute;
+      left: -70px;
+      top: 5px; }
+
+#arrow {
+  fill: red; }
+
+#arrow.boniver {
+  fill: blue; }
+
+.flip-container {
+  perspective: 1000;
+  transform-style: preserve-3d; }
+  .flip-container .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative; }
+    .flip-container .flipper .front,
+    .flip-container .flipper .back {
+      height: 400px;
+      width: 400px;
+      backface-visibility: hidden;
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+    .flip-container .flipper .front {
+      z-index: 2;
+      transform: rotateY(0deg); }
+    .flip-container .flipper .back {
+      transform: rotateY(-180deg); }
+  .flip-container.flipped .back {
+    transform: rotateY(0deg); }
+  .flip-container.flipped .front {
+    transform: rotateY(180deg); }
+
+.card {
+  margin-bottom: 500px; }
+  .card .spotify-embed__inner {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px; }
+    .card .spotify-embed__inner .loading-icon {
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%; }
+    .card .spotify-embed__inner iframe,
+    .card .spotify-embed__inner object,
+    .card .spotify-embed__inner embed {
+      position: absolute;
+      display: none;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%; }
+
+.card .card__image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%; }
+.card .flip-container .loading-icon {
+  color: #ffffff;
+  margin-top: -1.5rem;
+  margin-left: -1.5rem;
+  font-size: 3rem; }
+.card .flip-container .back {
+  background-color: #131313; }
+
+
+
+  .controls {
+    padding: 10px 0px;
+    margin-top: 250px;
+}
+
+.play {
+    display: inline-block;
+    height: 30px;
+    margin: 0px 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1,1);
+    transition: all 0.3s ease;
+}
+
+.controls .pause {
+    display: none;
+}
+
+.pause {
+    display: inline-block;
+    height: 30px;
+    margin: 0px 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1,1);
+    transition: all 0.5s ease;
+}
+
+.rew {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 30px;
+    opacity: 0.6;
+    transform: scale(1,1);
+    transition: all 0.5s ease;
+}
+
+.fwd {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 30px;
+    margin-right: 40px;
+    opacity: 0.6;
+    transform: scale(1,1);
+    transition: all 0.5s ease;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.controls .visible {
+    display: inline-block;
+}
+
+.tracker-container {
+    height: 90px;
+    width: 65%;
+    padding: 20px 0px;
+    display: inline-block;
+}
+
+.tracker {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    height: 6px;
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 22px 0px;
+    cursor: pointer;
+}
+
+.volume-container {
+    height: 90px;
+    width: 20%;
+    padding: 20px 0px;
+    display: inline-block;
+}
+
+.volume {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    height: 6px;
+    width: 80%;
+    vertical-align: middle;
+    margin-left: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 22px 0px;
+    cursor: pointer;
+}
+
+.vol {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.ui-slider-range {
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+}
+
+.ui-slider-handle {
+    cursor: pointer;
+    height: 10px;
+    margin-left: -5px;
+    width: 10px;
+    z-index: 2;
+}
+
+.volume .ui-slider-handle {
+    background: url("../images/volume.svg") no-repeat;
+}
+
+
+/*# sourceMappingURL=styles.css.map */

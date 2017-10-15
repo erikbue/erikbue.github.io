@@ -1,0 +1,254 @@
+@font-face {
+  font-family: ChronicleDisplayBlack;
+  src: url(../fonts/ChronicleDisp-Black.otf); }
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  margin: 0px;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 16px; }
+
+a {
+  text-decoration: none;
+  position: relative; }
+
+.primary-nav {
+  background-color: transparent;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 50; }
+
+.bue2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  transition: 0.3s ease; }
+
+.bue2:hover {
+  color: black; }
+
+.bue2:after {
+  content: '';
+  display: block;
+  color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0%;
+  border-bottom: 1px solid black;
+  transition: 0.4s; }
+
+.bue2:hover:after {
+  width: 100%; }
+
+.intro {
+  height: 500px;
+  display: flex;
+  position: fixed;
+  z-index: -100;
+  width: 100%;
+  top: 20px; }
+
+.welcome {
+  height: 200px; }
+
+.fav {
+  font-family: "ChronicleDisplayBlack", serif;
+  font-size: 78px;
+  line-height: 1;
+  margin-top: 120px;
+  margin-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .fav {
+      font-size: 60px; } }
+  @media screen and (max-width: 450px) {
+    .fav {
+      font-size: 48px;
+      line-height: 1.2;
+      margin-top: 90px;
+      margin-bottom: 30px; } }
+
+.year {
+  color: rgba(0, 0, 0, 0.2); }
+  .year .kern {
+    margin-left: -8px;
+    margin-right: -16px; }
+
+.thisisfine-bg {
+  background: url("../images/thisisfine.jpg") no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.message {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+  max-width: 550px; }
+  .message span {
+    color: inherit;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer; }
+  .message span:hover {
+    text-decoration: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.7); }
+
+.albums-wrapper {
+  height: 100%;
+  padding-top: 50px;
+  margin-top: 580px; }
+  @media screen and (max-width: 450px) {
+    .albums-wrapper {
+      padding-top: 50px; } }
+
+.album-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .album-section img {
+    width: 100%;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4); }
+
+.number {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.6); }
+  .number span {
+    font-size: 28px; }
+    @media screen and (max-width: 450px) {
+      .number span {
+        font-size: 22px; } }
+
+.artist {
+  font-family: "ChronicleDisplayBlack", serif;
+  font-size: 50px;
+  line-height: 1;
+  color: white;
+  margin-top: 50px; }
+  @media screen and (max-width: 992px) {
+    .artist {
+      margin-top: 30px; } }
+  @media screen and (max-width: 450px) {
+    .artist {
+      font-size: 36px;
+      margin-top: 30px; } }
+  .artist.m83 {
+    color: #1ca3e0; }
+  .artist.marshmello {
+    color: #f5a893; }
+  .artist.localnatives {
+    color: #b3bdb3; }
+  .artist.polyenso {
+    color: #d9ffaa; }
+  .artist.kanye {
+    color: #f58b57; }
+  .artist.stlucia {
+    color: #e0ae75; }
+  .artist.tycho {
+    color: #ad4232; }
+  .artist.chance {
+    color: #FC7368; }
+  .artist.hotelier {
+    color: #c2ae69; }
+  .artist.boniver {
+    color: #ff4e02; }
+
+.content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column; }
+  @media screen and (max-width: 992px) {
+    .content {
+      margin-top: 20px; } }
+
+.album {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 25px; }
+  @media screen and (max-width: 450px) {
+    .album {
+      margin-bottom: 15px; } }
+
+.title {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 22px;
+  flex: none;
+  align-self: baseline;
+  padding-right: 5px; }
+
+.date {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  flex: none;
+  align-self: baseline;
+  padding-left: 5px; }
+
+.dots {
+  flex: auto;
+  background: url("../images/dot_white.svg") center 23px space no-repeat;
+  opacity: 0.3; }
+
+.links {
+  display: flex;
+  align-self: center; }
+  .links img {
+    width: 24px;
+    margin-left: 5px;
+    opacity: 0.6;
+    transition: all 0.3s ease; }
+  .links img:hover {
+    opacity: 1; }
+
+.myfav {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4); }
+
+.trackname {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px; }
+
+.blurb {
+  align-self: baseline;
+  font-family: "Inconsolata", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 17px;
+  width: 90%;
+  margin-bottom: 45px; }
+  .blurb a {
+    color: inherit;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer; }
+  .blurb a:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.7); }
+  @media screen and (max-width: 992px) {
+    .blurb {
+      width: 100%;
+      margin-bottom: 25px; } }
+  @media screen and (max-width: 450px) {
+    .blurb {
+      font-size: 14px; } }
+
+/*# sourceMappingURL=styles.css.map */

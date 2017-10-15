@@ -1,0 +1,121 @@
+
+
+.container {
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1em;
+  padding-right: 1em; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.container {
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding: 0 1em;
+  max-width: 400px; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 796px; } }
+  @media screen and (min-width: 978px) {
+    .container {
+      max-width: 1006px; } }
+  @media screen and (min-width: 1218px) {
+    .container {
+      max-width: 1246px; } }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875em;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #808080;
+  overflow-y: scroll;
+  height: 100%; }
+
+body {
+  min-height: 100%; }
+
+
+html.fsvs {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden; }
+  html.fsvs #fsvs-body {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    /*position: absolute;
+    top: 0;
+    left: 0*/;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    margin: auto; }
+    html.fsvs #fsvs-body > * {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective: 1000; }
+  html.fsvs #fsvs-pagination {
+    margin: 0;
+    padding: 8px 4px;
+    position: fixed;
+    height: auto;
+    right: -100px;
+    top: 50%;
+    z-index: 999;
+    width: 32px; }
+    html.fsvs #fsvs-pagination li {
+      list-style: none;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      margin: 0 0 2px 0;
+      cursor: pointer; }
+      html.fsvs #fsvs-pagination li > span {
+        border-radius: 100%;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        border: 1px solid white;
+        display: block; }
+        html.fsvs #fsvs-pagination li > span > span {
+          border-radius: 100%;
+          width: 12px;
+          height: 12px;
+          line-height: 12px;
+          border: 1px solid white;
+          display: block;
+          margin: 4px; }
+      html.fsvs #fsvs-pagination li.active > span {
+        border: 1px dashed white; }
+        html.fsvs #fsvs-pagination li.active > span > span {
+          background: white; }
+      html.fsvs #fsvs-pagination li:last-child {
+        margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

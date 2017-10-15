@@ -1,0 +1,1973 @@
+/*---Extra Small---*/
+
+@media screen and ( max-width: 767px ) {
+.fa-long-arrow-down {
+  display: none;
+}
+  /*---Think Do Design---*/
+      .homeLogo{
+        margin-top: 40px;
+        width: 30%;
+      }
+      .saplogo{
+        margin-bottom: 80px;
+      }
+      .dstudioDef{
+        font-size: 18px;
+        margin-top: 10px;
+      }
+      .dstudioDef2{
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 25px;
+      }
+  /*---Good Design 1---*/
+      .homeheader{
+        display: none;
+      }
+      .homeheader-sm{
+        display: block;
+      }
+  /*---Good Design 2---*/
+      .homeheaderarea{
+        min-height: 700px;
+      }
+      .designWords{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: -10px;
+      }
+      .designWords2{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 0px;
+      }
+      .gooddesignText{
+        font-size: 38px;
+        margin-top: 0px;
+      }
+      .dstudiologo{
+        display: none;
+      }
+      .dstudiologo2{
+        display: block;
+        margin-bottom: 10px;
+        width: 200px;
+      }
+      .designthinkdoText{
+        font-size: 18px;
+        margin-top: 40px;
+      }
+      .saplogo2{
+        width: 50px;
+        margin-bottom: 50px;
+      }
+.mainInfo2{
+  display: inline-block;
+}
+.mainInfo_we_do2{
+  display: inline-block;
+}
+.infoLinks{
+  width: 100%;
+}
+.projectNavLinks{
+  margin-top: -66px;
+}
+.mainHeader3{
+height:50px;
+background-color:rgba(255,255,255,0.95);
+width: 100%;
+position: fixed;
+z-index: 100;
+padding: 9px 0px;
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+}
+.content{
+  position: relative;
+  min-height:865px;
+  bottom: 146px;
+  padding-top: 196px;
+  z-index: 2;
+  background-color: #fff;
+}
+.content2 {
+  bottom: 60px;
+  padding-top: 60px;
+}
+.contentWork{
+  position: relative;
+  min-height:865px;
+  bottom: 60px;
+  padding-top: 110px;
+  z-index: 2;
+  background-color: #fff;
+}
+.hamburger {
+	height: 40px;
+}
+.containerPadding{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.imageMargin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.headerColumnWidth{
+	width:65%;
+}
+div.howMarginTop{
+	margin-top:0px;
+}
+div.howMainSubtitle{
+	margin-top:40px;
+}
+.whoWhatHowDropdown{
+	visibility:hidden;
+}
+.howcontainerPadding{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.howparallaxPadding{
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.rowTopMargin{
+  margin-top: 0px;
+}
+.mainInfo_we_do {
+  font-size: 2.5em;
+  padding-bottom: 20px;
+  line-height: 1.3em;
+}
+.whatLink{
+  display: none;
+}
+.whatCont{
+  display:none;
+}
+.message{
+  display: none;
+}
+.featuredNewsTitle{
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.featuredWorkTitle{
+    font-size: 14px;
+  	padding-top: 40px;
+  	padding-bottom: 15px;
+    letter-spacing: 4px;
+}
+.articleLink{
+  font-size: 12px;
+}
+.articleLink a{
+  font-size: 16px;
+  line-height: 28px;
+}
+.articleLink2 {
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.articleLink2 a{
+  font-size: 16px;
+  line-height: 28px;
+}
+.inthenewsLink {
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.inthenewsLink a{
+  font-size: 16px;
+  line-height: 28px;
+}
+.logo img{
+  	width:230px;
+}
+.workingTitle{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.workingProjectType_dark{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+}
+.workingProjectType_light{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+}
+.workingProjectTitle_dark{
+  font-family: 'ChronicleDisplayRoman', 'Georgia', 'serif';
+  font-size:40px;
+  line-height: 48px;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.workingProjectTitle_light{
+  font-family: 'ChronicleDisplayRoman', 'Georgia', 'serif';
+  font-size:40px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.workingProjectInfo_dark{
+  font-family: 'ChronicleTextG1RomanPro', 'Georgia', 'serif';
+  font-size: 16px;
+  color:rgba(0, 0, 0, 0.6);
+  line-height: 24px;
+}
+.workingProjectInfo_light{
+  font-family: 'ChronicleTextG1RomanPro', 'Georgia', 'serif';
+  font-size: 16px;
+  color:rgba(255, 255, 255, 0.8);
+  line-height: 24px;
+}
+.workingComment{
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.workingScoutQuote{
+  font-family: 'ChronicleDisplayRoman', 'Georgia', 'serif';
+  font-size:30px;
+  line-height: 34px;
+  color:rgb(255, 255, 255);
+}
+.workingScoutQuote_dark{
+  font-family: 'ChronicleDisplayRoman', 'Georgia', 'serif';
+  font-size:30px;
+  line-height: 34px;
+  color:rgba(0, 0, 0, 0.8);
+}
+.workingScoutSubQuote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 16px;
+  padding-top: 8px;
+}
+.workingScoutSubQuote_dark{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 18px;
+  padding-top: 8px;
+}
+.workingScoutingTitle{
+  background-color: rgb( 245, 101, 70 );
+  margin-bottom: 30px;
+}
+.teamLogos{
+  text-align: center;
+}
+.workingProjectRecapTitle {
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.workingInfo{
+  font-family: 'ChronicleTextG1RomanPro', 'Georgia', 'serif';
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.bulletpoints{
+  font-size: 16px;
+  line-height: 24px;
+}
+.newsprojectArrow{
+  font-size: 22px;
+}
+.news:after{
+  font-size: 18px;
+}
+.featuredMain{
+  height: 295px;
+  margin-bottom: 15px;
+  background: #fff url( '../images/Home/featuredBILT_small.jpg' ) no-repeat center center/cover;
+}
+.featuredOther1{
+  margin-bottom: 15px;
+  background: #fff url( '../images/Home/featuredSGS_small.jpg' ) no-repeat center center/cover;
+}
+.featuredOther2{
+  background: #fff url( '../images/Home/featuredScouting_small.jpg' ) no-repeat center center/cover;
+  margin-bottom: 0px;
+}
+.featuredMain:after,
+.featuredOther1:after,
+.featuredOther2:after{
+  font-size: 18px;
+}
+.projectArrow{
+  font-size: 22px;
+}
+.mainProjects{
+  background-color: rgb(228, 230, 233);
+  /*min-height: 920px;*/
+  padding-bottom: 60px;
+  padding-top: 25px;
+}
+.allWorkLink{
+  font-size: 16px;
+  line-height: 10px;
+  padding-top: 30px;
+}
+.allWorkLink:hover{
+  font-size: 16px;
+  line-height: 10px;
+}
+.UXdayQuote{
+  font-family: 'ChronicleTextG1RomanPro', 'Georgia', 'serif';
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(109,110,113,1);
+  margin-top: 20px;
+  text-indent: -8px;
+}
+.workImage{
+  width: 100px;
+  margin-top: 29px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.workProjectFirst{
+  padding-top: 20px;
+  height: 120px;
+  background-color:#fff;
+  transition:background 0.3s ease;
+  -webkit-transition:background 0.3s ease;
+}
+.workProject{
+  height: 110px;
+  background-color:#fff;
+  border-top: 1px solid rgb(243, 246, 247);
+  transition:background 0.3s ease;
+  -webkit-transition:background 0.3s ease;
+}
+.workProjectType{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 32px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  margin-left: 0px;
+}
+.workProjectTitle{
+  font-family: 'ChronicleDisplayRoman', 'Georgia', 'serif';
+  font-size:22px;
+  color: rgb(0, 0, 0);
+  margin-top: -5px;
+  margin-bottom: 0px;
+  text-overflow:ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 200px;
+  margin-left: 0px;
+}
+.workProjectTitle_small{
+  font-family: 'ChronicleDisplayRoman', 'Georgia', 'serif';
+  font-size:18px;
+  color: rgb(0, 0, 0);
+  margin-left: -15px;
+  margin-bottom: 0px;
+}
+.workPastProject{
+  height: 30px;
+  background-color:#fff;
+  transition:background 0.3s ease;
+  -webkit-transition:background 0.3s ease;
+}
+.pastProjects{
+  min-height: 0px;
+  padding-bottom: 60px;
+}
+.pastProjectsTitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  margin-left: -15px;
+  margin-top: 10px;
+}
+.people{
+  margin-top: 20px;
+  margin:0 auto;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+.peopleContainer{
+  margin: 20px auto 50px;
+}
+.people li{
+  width:145px;
+  height:145px;
+  margin-right: -4px;
+}
+.people li:before{
+  width: 145px;
+  height:145px;
+}
+.people li:hover:after{
+  bottom: -20px;
+}
+.people li:hover:before{
+  display: none;
+}
+.peopleTitle{
+  display: none;
+}
+.peoplePos{
+  display: none;
+}
+.peopleInfo{
+  margin-top: -80px;
+  margin-left: -80px;
+  margin-right: -15px;
+}
+.peopleTitle_big{
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 26px;
+  margin-bottom: 4px;
+  padding-right: 20px;
+}
+.peopleBio{
+  font-size: 16px;
+  margin-left: -16px;
+  margin-top: 40px;
+  margin-bottom: -40px;
+}
+.peopleJobBio{
+  font-size: 16px;
+  margin-left: -16px;
+  margin-top: 10px;
+  margin-bottom: -40px;
+}
+.peopleQuote{
+  font-size: 16px;
+  line-height: 22px;
+}
+.peopleQuoteAuthor{
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin-bottom: 30px; 
+}
+.socialMedia a{
+  font-size: 20px;
+  margin-top: -20px;
+  margin-right: 25px;
+}
+.peopleJobLink{
+  margin-bottom: -60px;
+}
+.peopleInfo_close{
+  padding-top: -10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+.howMain{
+  padding-bottom: 40px;
+  width:100%;
+  background-color: rgb( 245, 101, 70 );
+}
+.howMainSubtitle{
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+.howMainTitle{
+  font-size:30px;
+  line-height: 34px;
+  margin-top:15px;
+  margin-bottom: 0px;
+}
+.howTitle{
+  font-size:28px;
+  line-height: 38px;
+  margin-top:6px;
+}
+.howSubtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+}
+.howText{
+  font-size: 16px;
+  padding-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.how_rowTopMargin{
+  margin-top: 30px;
+}
+.how_fire{
+  width: 130px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.how_head{
+  width: 110px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.how_eye{
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.how_binoculars{
+  width: 120px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.how_checkbox{
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.how_rocket{
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.how_evolve{
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.how_evolvepadding{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.workVideo {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.play{
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+.play:hover{
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+.news:before{
+  padding-bottom: -50px;
+}
+.homefeatured_uxday {
+  margin-bottom: 10px;
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 400px;
+}
+.homefeatured_teamweek {
+  margin-bottom: 50px;
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 400px;
+}
+.UXawards{
+  list-style-position: outside;
+  padding-left: 18px;
+  text-indent:0px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.videoTitle{
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.videoQuote{
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.videoMargin{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.UXdayContent{
+  min-height: 400px;
+  background-color:rgb(238, 238, 238);
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.UXdayContent_white{
+  background-color:rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.videoPlaceholder3 iframe{
+  max-width: 100%;
+  height: 164px;
+}
+.downloadLink{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'ChronicleTextG1RomanPro', 'Georgia', 'serif';
+}
+.speakers{
+  margin-top:10px;
+}
+.speakerPhoto:after{
+  font-size: 16px;
+}
+.speakerArrow{
+  font-size: 20px;
+  margin-top: 0px;
+}
+.speakerName{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.7);
+  margin-top: 20px;
+}
+.speakerInfo{
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.workingUXDayComment{
+  background-color: rgb( 205, 231, 181 );
+  margin-top: 0px;
+}
+.UXDayQuoteAuthor{
+  text-align:left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: rgba(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 55px;
+  margin-bottom: 0px;
+}
+.teamweekSubtitle{
+  font-weight: 1500;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+.teamweekTitle {
+  font-size: 12px;
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+.teamweekText{
+  font-size: 16px;
+  padding-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.teamweekLink{
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+.teamweek_rowTopMargin{
+  margin-top: 50px;
+}
+.teamweek_day1{
+  width: 90%;
+}
+.teamweek_day2{
+  width: 90%;
+  margin-left: 40px;
+}
+.teamweek_day3{
+  width: 100%;
+  margin-bottom: 35px;
+}
+.teamweek_day4{
+  width: 100%;
+}
+.teamweek_day5{
+  width: 80%;
+  margin-bottom: 40px;
+}
+.bilt_logo {
+  width: 160px;
+}
+.bilt_graphic {
+  padding-bottom: 20px;
+}
+.bilt_image1 {
+  width: 70%;
+}
+.bilt_sketches {
+  margin-top: 20px;
+}
+.bilt_feedbackwall {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.bilt_productdetails {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sgs_ipad{
+  margin-top: 30px;
+  width: 70%;
+}
+.sgs_image2{
+  width: 70%;
+}
+.sgs_image3{
+  width: 80%;
+}
+.sgs_stanfordgame {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sgs_students {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.scouting_image2{
+  width: 80%;
+}
+.scouting_teamwork {
+  padding-top: 10px;
+}
+.scouting_playerprofile {
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.scouting_image3{
+  width: 80%;
+}
+.carecircles_image2{
+  width: 90%;
+}
+.carecircles_image3{
+  width: 90%;
+}
+.carecircles_image4{
+  width: 90%;
+}
+.carecirlces_illustration2 {
+  margin-bottom: 10px;
+}
+.carecircles_tree{
+  margin-top: 20px;
+}
+.projectec_discuss{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.projectec_image2{
+  width: 80%;
+}
+.projectec_image3{
+  width: 90%;
+}
+.projectec_profile{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.simplefinance_persona{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.simplefinance_collab{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.simplefinance_profile {
+  margin-top: 10px;
+}
+.cxodashboard_ipad{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cxodashboard_illustration1{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.cxodashboard_illustration2{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.sapphire_screenshots{
+  margin-left: auto;
+  margin-right: auto;
+}
+.workspace_illustration3{
+  width: 25%;
+}
+.playerengagement_ipad{
+  width: 80%;
+  margin-top: 25px;
+}
+.playerengagement_wall{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.playerengagement_image3{
+  width: 97%;
+}
+.aswemayshop_dreamworkslogo{
+  width: 70%;
+}
+.aswemayshop_characters{
+  width: 70%;
+}
+.myrunway_logo{
+  width:300px;
+}
+.myrunway_image2{
+  width: 70%;
+}
+.myrunway_image3{
+  width: 100%;
+}
+.myrunway_image4{
+  width: 90%;
+}
+.myrunway_appicon{
+  width: 40%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.myrunway_model{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.myrunway_iphone2{
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.myrunway_iphone3{
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.geneva_image2{
+  width: 80%;
+}
+.geneva_image3{
+  width: 65%;
+}
+.geneva_image4{
+  width: 80%;
+}
+.geneva_lightbulb{
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.geneva_global{
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.geneva_users{
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.geneva_devices{
+  margin-top: -10px;
+  margin-bottom: 40px;
+  width: 70%;
+}
+.geneva_boardroom{
+  width: 60%;
+  margin-bottom: 20px;
+}
+.nestle_postit{
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+.nestle_image1{
+  width: 70%;
+}
+.nestle_image2{
+  width: 50%;
+}
+.nestle_purchasescreen{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.realspend_uxawardslogo{
+  width: 30%;
+  margin-bottom: 10px;
+}
+.realspend_uxawardstext{
+  margin-bottom: 30px;
+}
+.realspend_image2{
+  width: 90%;
+}
+.realspend_image3{
+  width: 90%;
+}
+.realspend_sketch{
+  width: 60%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.phototribe_icon{
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.phototribe_trio{
+  margin-bottom: 15px;
+}
+.phototribe_iphone{
+  width: 60%;
+  margin-top: 20px;
+}
+.phototribe_image2{
+  width: 65%;
+}
+.phototribe_image3{
+  width: 70%;
+}
+.adler_fans{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.adler_iphonescreens{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.recallsplus_image2{
+  width: 60%;
+}
+.recallsplus_image3{
+  width: 80%;
+}
+.workingRealSpendTitle{
+  margin-bottom: 15px;
+}
+.secondListTop{
+  margin-top: -10px;
+}
+.minHeight{
+  min-height: 450px;
+}
+.minHeightFullimage{
+  min-height: 300px;
+}
+.parallaxTransform{
+  transform:translate(0%,0%);
+  -ms-transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%);
+  -moz-transform: translate(0%, 0%);
+  height: auto;
+  display: block;
+}
+.parallaxImage{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:450px;
+}
+.parallaxImageFullimage{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:300px;
+}
+.parallaxMargin{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.content{
+  position: relative;
+  min-height:750px;
+  bottom: 60px;
+  padding-top: 110px;
+  z-index: 2;
+  background-color: #fff;
+}
+.GalleryContent{
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+.GalleryTitle {
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 24px;
+  margin-top: 40px;
+}
+.gallery-control {
+  font-size: 20px;
+  top: 70%;
+}
+footer{
+  min-height: 60px;
+}
+footer .footer {
+  margin-top:20px
+}
+footer .copyright span{
+  font-size: 10px;
+}
+}
+
+
+
+
+
+/*---Desktop--Scaled down---*/
+@media screen and ( min-width: 768px) and (max-width: 991px ) {
+
+.homeheaderarea{
+  min-height: 980px;
+}
+.designWords{
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: -10px;
+}
+.designWords2{
+  font-size: 24px;
+  line-height: 30px;
+}
+.gooddesignText{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  color: #000;
+  line-height: 70px;
+  margin-top: 30px;
+  display: block;
+}
+.dstudiologo{
+  display: none;
+}
+.dstudiologo2{
+  display: block;
+  margin-bottom: 10px;
+}
+.designthinkdoText{
+  margin-top: 60px;
+}
+.content2 {
+  bottom: 80px;
+  padding-top: 80px;
+}
+.message{
+  float: right;
+}
+.homeLogo {
+  width: 30%;
+  margin-top: 40px;
+}
+.saplogo{
+  margin-bottom: 80px;
+}
+.homefeatured_teamweek{
+  margin-top: 10px;
+}
+.peopleInfo{
+  margin-left: -50px;
+}
+.peopleBio{
+  margin-left: -16px;
+}
+.peopleJobBio{
+  margin-left: -16px;
+}
+.socialMedia a{
+  margin-top: 20px;
+}
+.peopleInfo_close{
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding-right: 100px;
+}
+.gallery-control {
+  top: 60s%;
+}
+.secondparagraphPaddingTop{
+  margin-top: 50px;
+}
+.play{
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+}
+.play:hover{
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+}
+.bilt_image1 {
+  width: 60%;
+}
+.sgs_ipad{
+  width: 60%;
+  margin-bottom: 30px;
+}
+.sgs_image2{
+  width: 85%;
+}
+.sgs_image3{
+  width: 90%;
+}
+.scouting_image2{
+  width: 60%;
+}
+.scouting_image3{
+  width: 80%;
+}
+.carecircles_image2{
+  width: 100%;
+}
+.carecircles_image3{
+  width: 95%;
+}
+.carecircles_image4{
+  width: 80%;
+}
+.projectec_image2{
+  width: 80%;
+}
+.projectec_image3{
+  width: 90%;
+}
+.simplefinance_persona{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.simplefinance_collab{
+  margin-top: 40px;
+}
+.simplefinance_profile{
+  margin-top: 50px;
+}
+.cxodashboard_ipad{
+  margin-bottom: 30px;
+}
+.cxodashboard_illustration1{
+  margin-top: 40px;
+}
+.cxodashboard_illustration2{
+  margin-top: 40px;
+}
+.sapphire_image{
+  width: 80%;
+}
+.sapphire_screenshots{
+  width: 70%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sapphire_videodiamond{
+  margin-bottom: 50px; 
+}
+.sapphire_videohana{
+  margin-top: 50px; 
+}
+.workspace_illustration1{
+  width: 60%;
+  margin-bottom: 80px;
+}
+.workspace_illustration2{
+  margin-top: 70px;
+}
+.workspace_illustration3{
+  width: 25%;
+  margin-bottom: 70px;
+}
+.playerengagement_ipad{
+  width: 70%;
+  margin-bottom: 40px;
+}
+.playerengagement_wall{
+  margin-top: 50px;
+}
+.playerengagement_image3{
+  width: 80%;
+}
+.aswemayshop_dreamworkslogo{
+  width: 60%;
+  margin-bottom: 60px;
+}
+.aswemayshop_characters{
+  width: 60%;
+  margin-top: 50px;
+}
+.aswemayshop_webcambag{
+  width: 80%;
+  margin-top: 50px;
+}
+.myrunway_appicon{
+  width: 35%;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.myrunway_image2{
+  width: 80%;
+}
+.myrunway_image3{
+  width: 75%;
+}
+.myrunway_image4{
+  width: 75%;
+}
+.myrunway_model{
+  margin-top: 40px;
+}
+.myrunway_iphone2{
+  width: 30%;
+  margin-bottom: 50px;
+}
+.myrunway_iphone3{
+  width: 50%;
+  margin-top: 50px;
+}
+.geneva_image2{
+  width: 80%;
+}
+.geneva_image3{
+  width: 65%;
+}
+.geneva_image4{
+  width: 80%;
+}
+.geneva_lightbulb{
+  width: 45%;
+  margin-top: 0px;
+  margin-bottom: 70px;
+}
+.geneva_global{
+  width: 60%;
+  margin-top: 70px;
+}
+.geneva_users{
+  width: 55%;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+.geneva_devices{
+  width: 60%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.geneva_boardroom{
+  width: 50%;
+  margin-bottom: 50px;
+}
+.nestle_postit{
+  margin-top: 50px;
+  margin-bottom: 0px; 
+}
+.nestle_image1{
+  width: 80%;
+}
+.nestle_image2{
+  width: 45%;
+}
+.nestle_purchasescreen{
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.realspend_uxawardslogo{
+  width: 40%;
+  margin-bottom: 10px;
+}
+.realspend_uxawardstext{
+  margin-bottom: 60px;
+}
+.realspend_image2{
+  width: 100%;
+}
+.realspend_image3{
+  width: 100%;
+}
+.realspend_sketch{
+  width: 50%;
+  margin-top: 40px;
+}
+.realspend_image2{
+  width: 90%;
+}
+.phototribe_icon{
+  width: 30%;
+  margin-bottom: 50px;
+}
+.phototribe_trio{
+  margin-top: 40px;
+}
+.phototribe_iphone{
+  width: 50%;
+  margin-bottom: 40px;
+}
+.phototribe_image2{
+  width: 65%;
+}
+.phototribe_image3{
+  width: 65%;
+}
+.adler_fans{
+  margin-top: 40px;
+}
+.adler_iphonescreens{
+  margin-top: 60px;
+}
+.recallsplus_appicon{
+  width: 30%;
+  margin-bottom: 50px;
+}
+.recallsplus_screens{
+  width: 50%;
+  margin-top: 50px;
+}
+.recallsplus_image2{
+  width: 50%;
+}
+.recallsplus_image3{
+  width: 75%;
+}
+.videoMargin{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.videoTitle{
+  margin-top: 30px;
+}
+.videoPlaceholder3 iframe{
+  max-width: 100%;
+}
+.downloadLink{
+  margin-bottom: 50px;
+}
+.downloadLink:hover{
+  margin-bottom: 50px;
+}
+.videoQuote{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.UXDayQuoteAuthor{
+  margin-bottom: 0px;
+}
+.UXdayQuote{
+  margin-top: 40px;
+}
+.teamweek_day1{
+  width: 80%;
+  margin-bottom: 40px;
+}
+.teamweek_day2{
+  width: 90%;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+.teamweek_day3{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.teamweek_day4{
+  width: 100%;
+  margin-top: 50px;
+}
+.teamweek_day5{
+  width: 60%;
+  margin-bottom: 50px;
+}
+.secondListTop{
+  margin-top: -10px;
+}
+.how_rowTopMargin{
+  margin-top: 80px;
+}
+.how_fire{
+  margin-top: 40px;
+}
+.how_head{
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+.how_eye{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.how_checkbox{
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.how_rocket{
+  margin-top: 30px;
+}
+.how_evolve{
+  margin-top: 0px;
+  margin-bottom: 50px; 
+}
+footer{
+  min-height: 80px;
+}
+footer .footer {
+  margin-top:28px
+}
+footer .copyright span{
+  font-size: 12px;
+}
+}
+
+
+
+
+
+/*---Small - sm - Tablet---*/
+@media screen and ( min-width: 768px) and (max-width: 1023px ) {
+.itMeans{
+  display: none;
+}
+.homefeatured_uxday {
+  margin-bottom: 10px;
+}
+.homefeatured_teamweek {
+  margin-bottom: 20px;
+}
+.featuredMain{
+  height: 430px;
+  margin-bottom: 15px;
+}
+.featuredOther1{
+  height: 200px;
+  margin-bottom: 30px;
+}
+.featuredOther2{
+  height: 200px;
+  margin-top: 15px;
+}
+.pastProjectsTitle {
+  margin-left: 0px;
+}
+.workProjectTitle_small{
+  margin-left: 0px;
+}
+.maxHeight{
+  max-height: 400px;
+}
+.workVideo {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.bilt_logo {
+  width: 160px;
+}
+.bilt_graphic {
+  padding-top: 10px;
+  width: 80%;
+}
+.bilt_sketches {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.bilt_feedbackwall {
+  margin-top: 50px;
+}
+.bilt_productdetails {
+  margin-bottom: 50px;
+}
+.scouting_teamwork {
+  padding-top: 40px;
+}
+.scouting_playerprofile {
+  margin-top: 40px;
+}
+.carecirlces_illustration2 {
+  padding-top: 40px;
+}
+.carecircles_illustration3 {
+  padding-bottom: 40px;
+}
+.carecircles_tree{
+  padding-top: 40px;
+}
+.projectec_discuss{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.projectec_whiteboard{
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.projectec_profile{
+  margin: auto;
+  margin-bottom: 50px;
+}
+.parallaxImage{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:500px;
+}
+.parallaxImageFullimage{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:500px;
+}
+}
+
+
+
+
+
+@media screen and ( min-width: 1024px ) {
+.itMeans{
+  display: none;
+}
+.workVideo{
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.parallaxImage{
+  height: 950px;
+}
+.parallaxImageFullimage{
+  height: 950px;
+}
+.sapphire_image{
+  width: 80%;
+}
+}
+
+
+@media screen and ( min-width: 992px ) and ( max-width:1199px ) {
+.dstudiologo{
+  width: 85%;
+}
+.how_fire{
+  margin-left: -10px;
+  margin-top: 400px;
+}
+}
+
+
+@media screen and ( min-width: 1200px ) {
+.UXdayQuote{
+  margin-top: 75px;
+}
+}
+
+
+
+
+
+/*---Mobile---*/
+@media screen and ( max-width: 400px ) {
+/*.content2 {
+  padding-top: 80px;
+}*/
+.content2 {
+  padding-top: 110px;
+}
+.homeLogo{
+  margin-top: 40px;
+  width: 55%;
+}
+.homeMainImage{
+  min-height: 550px;
+}
+.mainInfo_we_do2{
+  font-size: 21px;
+}
+.homefeatured_teamweek {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.logoContainer{
+  margin-top: 0px;
+  max-width: 100%;
+  padding-right: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; /* Safari */
+           -webkit-justify-content: space-around; /* Safari 6.1+ */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.mainHeader2{
+  visibility: hidden;
+}
+.mainHeader3{
+  height:50px;
+  background-color:rgba(255,255,255,0.95);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  padding: 9px 0px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+}
+.mainHeaderHome{
+  height:70px;
+  background-color:rgba(255,255,255,0);
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  padding: 18px 0px;
+  visibility: hidden;
+}
+.mainHeader2Home{
+  height:70px;
+  background-color:rgba(255,255,255,0.95);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  padding: 18px 0px;
+  top: -80px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: top 200ms ease;
+  visibility: hidden;
+}
+.mainHeader2Home .infoLinksWork{
+  visibility: hidden;
+}
+.mainHeader3Home{
+  height:50px;
+  padding: 9px 0px;
+  visibility: visible;
+}
+.mainHeader3Home ul{
+  visibility: hidden;
+}
+.mainHeader3Home ul li a{
+  display: block;
+  padding: 24px 0px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: rgba(255,255,255,1);
+}
+.mainNav ul li a{
+  padding: 24px 0px;
+}
+.mainNav ul{
+  visibility: hidden;
+}
+.howWhatWhoMenu{
+  margin-left:0px;
+  margin-right:15px;
+  position: fixed;
+  float: left;
+  margin-top: 5px;
+  visibility:visible;
+  cursor: pointer;
+}
+.infoLinksWork,
+.mobileNav{
+  position:fixed;
+  top:50px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+}
+.infoLinksWork li,
+.mobileNav li{
+  display: block;
+}
+.mobileNav li a {
+  display: inline-block;
+  padding: 20px 0px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: rgba(255,255,255,1);
+}
+.projectNavLinks{
+  margin-top: -59px;
+}
+.featuredWorkTitle{
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+}
+.minHeight{
+  min-height: 300px;
+}
+.minHeightFullimage{
+  min-height: 200px;
+}
+.parallaxImage{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:300px;
+}
+.parallaxImageFullimage{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:200px;
+}
+.bilt_image1 {
+  width: 100%;
+}
+.bilt_image2 {
+  width: 90%;
+}
+.sgs_ipad{
+  width: 90%;
+  margin-top: 20px;
+}
+.sgs_image2{
+  width: 100%;
+}
+.sgs_image3{
+  width: 95%;
+}
+.scouting_image2{
+  width: 85%;
+}
+.scouting_image3{
+  width: 90%;
+}
+.carecircles_image2{
+  width: 100%;
+}
+.carecircles_image3{
+  width: 100%;
+}
+.carecircles_image4{
+  width: 90%;
+}
+.projectec_image2{
+  width: 95%;
+}
+.projectec_image3{
+  width: 100%;
+}
+.myrunway_image2{
+  width: 100%;
+}
+.myrunway_image3{
+  width: 100%;
+}
+.myrunway_image4{
+  width: 100%;
+}
+.geneva_image2{
+  width: 95%;
+}
+.geneva_image3{
+  width: 90%;
+}
+.geneva_image4{
+  width: 100%;
+}
+.nestle_image1{
+  width: 100%;
+}
+.nestle_image2{
+  width: 85%;
+}
+.realspend_uxawardslogo{
+  width: 50%;
+  margin-bottom: 0px;
+}
+.realspend_uxawardstext{
+  margin-top: 12px;
+}
+.realspend_image2{
+  width: 100%;
+}
+.realspend_image3{
+  width: 100%;
+}
+.realspend_image2{
+  width: 90%;
+}
+.recallsplus_image2{
+  width: 85%;
+}
+.recallsplus_image3{
+  width: 100%;
+}
+.phototribe_image2{
+  width: 95%;
+}
+.phototribe_image3{
+  width: 90%;
+}
+.aswemayshop_image2{
+  width: 100%;
+}
+.aswemayshop_image3{
+  width: 100%;
+}
+.sapphire_screenshots{
+  width: 100%;
+}
+.workspace_illustration1{
+  width: 80%;
+}
+.workspace_illustration2{
+  width: 90%;
+}
+.workspace_illustration3{
+  width: 35%;
+}
+.UXdayContent{
+  padding-top: 0px;
+}
+.UXdayContent_white{
+  padding-top: 0px;
+}
+.UXdayQuote{
+  margin-top: 10px;
+}
+.speakers li{
+  width:100%;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  vertical-align: middle;
+}
+.speakerPhoto:before{
+  width: 100%;
+}
+.speakerPhotoResize{
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.speakerInfo{
+  margin-bottom: 20px;
+}
+.videoTitle{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.videoQuote{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.videoMargin{
+  margin-top: 20px;
+}
+.uxday_image2{
+  height: 100%;
+}
+.carouselPadding{
+  padding-bottom: 30px;
+}
+}
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)       and (max-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)       and (max-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)     and (max-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)       and (max-width: 320px),
+only screen and (                min-resolution: 192dpi)  and (max-width: 320px),
+only screen and (                min-resolution: 2dppx)   and (max-width: 320px) {
+
+.featuredMain{
+  background: #fff url( '../images/Home/featuredBILT_small@2x.jpg' ) no-repeat center center/160%;
+}
+.featuredOther1{
+  background: #fff url( '../images/Home/featuredSGS_small@2x.jpg' ) no-repeat center center/150%;
+}
+.featuredOther2{
+  background: #fff url( '../images/Home/featuredScouting_small@2x.jpg' ) no-repeat center center/160%;
+}
+}
+
+

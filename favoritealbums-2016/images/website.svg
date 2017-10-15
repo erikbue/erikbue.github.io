@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Black" sketch:type="MSArtboardGroup" transform="translate(-86.000000, -208.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(86.000000, 208.000000)">
+                <path d="M2.64923152,40 C1.18567266,40 0,38.8135915 0,37.3506028 L0,2.64921096 C0,1.1858497 1.18585891,0 2.64923152,0 L45.3509547,0 C46.8139548,0 48,1.1858497 48,2.64921096 L48,37.3506028 C48,38.8137778 46.8137686,40 45.3509547,40 L2.64923152,40 Z" id="Facebook" fill="#0B0B0A" sketch:type="MSShapeGroup"></path>
+                <path d="M17.731,18.706 L15.813,18.706 L14.637,23.214 L13.139,18.706 L11.809,18.706 L10.325,23.214 L9.14899999,18.706 L7.21699999,18.706 L9.45699999,26 L10.955,26 L12.481,21.422 L14.007,26 L15.505,26 L17.731,18.706 Z M29.2903333,18.706 L27.3723333,18.706 L26.1963333,23.214 L24.6983333,18.706 L23.3683333,18.706 L21.8843333,23.214 L20.7083333,18.706 L18.7763333,18.706 L21.0163333,26 L22.5143333,26 L24.0403333,21.422 L25.5663333,26 L27.0643333,26 L29.2903333,18.706 Z M40.8496667,18.706 L38.9316667,18.706 L37.7556667,23.214 L36.2576667,18.706 L34.9276667,18.706 L33.4436667,23.214 L32.2676667,18.706 L30.3356667,18.706 L32.5756667,26 L34.0736667,26 L35.5996667,21.422 L37.1256667,26 L38.6236667,26 L40.8496667,18.706 Z" id="www" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-1" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="6" cy="5" r="1"></circle>
+                <circle id="Oval-1" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="10" cy="5" r="1"></circle>
+                <circle id="Oval-1" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="14" cy="5" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

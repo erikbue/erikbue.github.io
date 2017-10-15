@@ -1,0 +1,1200 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.group:after, .menu__artist-grid:after, .menu__col-container:after, .album .container:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+body {
+  background-color: #fff; }
+
+html {
+  overflow-y: scroll; }
+
+main {
+  font-family: "Adelle SansW01-Regular", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", Helvetica, Arial, sans-serif;
+  overflow-y: scroll; }
+
+.container {
+  width: 100%;
+  margin: 0 auto; }
+  @media all and (min-width: 740px) {
+    .container {
+      width: 640px; } }
+  @media all and (min-width: 1100px) {
+    .container {
+      width: 1020px; } }
+  @media all and (min-width: 1300px) {
+    .container {
+      width: 1220px; } }
+  @media all and (min-width: 1500px) {
+    .container {
+      width: 1420px; } }
+
+.desktop .nav__hamburger:hover .nav__hamburger-svg-1 {
+  transform: translate(0px, 2px); }
+.desktop .nav__hamburger:hover .nav__hamburger-svg-3 {
+  transform: translate(0px, -2px); }
+.desktop .nav__hamburger--open:hover .nav__hamburger-svg-1 {
+  transform: translate(1px, 8px) rotate(-45deg) !important;
+  -moz-transform: translate(6px, 6px) rotate(-45deg) !important; }
+.desktop .nav__hamburger--open:hover .nav__hamburger-svg-2 {
+  opacity: 0; }
+.desktop .nav__hamburger--open:hover .nav__hamburger-svg-3 {
+  transform: translate(1px, -8px) rotate(45deg) !important;
+  -moz-transform: translate(6px, -5px) rotate(45deg) !important; }
+.desktop .nav__x:hover {
+  transform: rotate(90deg); }
+
+.home .nav__logo .nav__logo-svg {
+  fill: #003264 !important; }
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+  z-index: 5;
+  top: -100px; }
+  .nav__logo {
+    width: 81px;
+    height: 39px;
+    display: block;
+    margin: 5px auto 0;
+    overflow: hidden;
+    cursor: pointer; }
+  .nav__logo-svg {
+    fill: #003264;
+    margin-top: -11px;
+    transition: fill .15s linear; }
+  .nav__hamburger {
+    padding: 5px;
+    width: 34px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+    .nav__hamburger:focus {
+      outline: none; }
+    .nav__hamburger--open .nav__hamburger-svg-1 {
+      transform: translate(1px, 8px) rotate(-45deg);
+      -moz-transform: translate(6px, 6px) rotate(-45deg); }
+    .nav__hamburger--open .nav__hamburger-svg-2 {
+      opacity: 0; }
+    .nav__hamburger--open .nav__hamburger-svg-3 {
+      transform: translate(1px, -8px) rotate(45deg);
+      -moz-transform: translate(6px, -5px) rotate(45deg); }
+    @media all and (min-width: 1020px) {
+      .nav__hamburger {
+        right: auto;
+        left: 50%;
+        margin-left: 450px; } }
+    @media all and (min-width: 1300px) {
+      .nav__hamburger {
+        margin-left: 600px; } }
+  .nav__hamburger-svg {
+    fill: #003264; }
+    .nav__hamburger-svg-2 {
+      transition: opacity .2s ease-in-out; }
+    .nav__hamburger-svg-1, .nav__hamburger-svg-3 {
+      transition: transform .2s ease-in-out;
+      transform-origin: 50% 50%; }
+  .nav__x {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 7px;
+    transition: transform .2s ease-in-out; }
+    @media all and (min-width: 1020px) {
+      .nav__x {
+        left: 50%;
+        margin-left: -483px; } }
+    @media all and (min-width: 1300px) {
+      .nav__x {
+        margin-left: -600px; } }
+  .nav__x-svg {
+    fill: #003264; }
+
+.intro {
+  position: absolute;
+  width: 100%; }
+  .intro__text-container {
+    position: absolute;
+    width: 100%; }
+  .intro span {
+    font-family: "Adelle SansW01-Light";
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    color: #00affa;
+    opacity: 0; }
+    .intro span:nth-child(2) {
+      color: #32e1e1; }
+    .intro span:nth-child(3) {
+      color: #fac8fa; }
+    @media all and (min-width: 330px) {
+      .intro span {
+        font-size: 20px; } }
+    @media all and (min-width: 375px) {
+      .intro span {
+        font-size: 23px; } }
+    @media all and (min-width: 550px) {
+      .intro span {
+        font-size: 30px; } }
+    @media all and (min-width: 1100px) {
+      .intro span {
+        font-size: 48px; } }
+
+.desktop .arrow-left:hover .arrow-left__svg {
+  transform: translateX(-8px); }
+.desktop .arrow-right:hover .arrow-right__svg {
+  transform: translateX(8px); }
+
+.day-list-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden; }
+
+.arrow-left {
+  width: 40px;
+  height: 58px;
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  margin-top: -30px;
+  z-index: 3;
+  cursor: pointer;
+  transition: left .3s ease-in-out; }
+  .arrow-left--show {
+    left: 0; }
+    @media all and (min-width: 330px) {
+      .arrow-left--show {
+        left: 15px; } }
+    @media all and (min-width: 780px) {
+      .arrow-left--show {
+        left: 25px; } }
+  .arrow-left__svg {
+    width: 16px;
+    margin: 12px 0 0 12px;
+    transition: transform .2s ease-in-out; }
+  .arrow-left__shape {
+    fill: #003264; }
+
+.arrow-right {
+  width: 40px;
+  height: 58px;
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  margin-top: -30px;
+  z-index: 3;
+  cursor: pointer;
+  transition: right .3s ease-in-out; }
+  .arrow-right--show {
+    right: 0px; }
+    @media all and (min-width: 330px) {
+      .arrow-right--show {
+        right: 15px; } }
+    @media all and (min-width: 780px) {
+      .arrow-right--show {
+        right: 25px; } }
+  .arrow-right__svg {
+    width: 16px;
+    margin: 12px 0 0 12px;
+    transition: transform .2s ease-in-out; }
+  .arrow-right__shape {
+    fill: #003264; }
+
+.day-list {
+  position: absolute;
+  visibility: hidden;
+  z-index: 2; }
+  .day-list__item {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    z-index: 0; }
+    .day-list__item:nth-child(2) .day-list__bg, .day-list__item:nth-child(5) .day-list__bg, .day-list__item:nth-child(8) .day-list__bg {
+      background-color: #32e1e1; }
+    .day-list__item:nth-child(3) .day-list__bg, .day-list__item:nth-child(6) .day-list__bg, .day-list__item:nth-child(9) .day-list__bg {
+      background-color: #fac8fa; }
+  .day-list__bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00affa; }
+  .day-list__title {
+    font-family: "Clearface ITC W01 Bold";
+    font-size: 60px;
+    line-height: 1em;
+    color: #fff;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    margin-top: -30px;
+    width: 100%;
+    text-align: center; }
+    @media all and (min-width: 780px) {
+      .day-list__title {
+        font-size: 100px;
+        margin-top: -50px; } }
+    @media all and (min-width: 1650px) and (min-height: 1070px) {
+      .day-list__title {
+        font-size: 130px;
+        margin-top: -65px; } }
+  .day-list__cta {
+    font-family: "Adelle SansW01-Light";
+    font-size: 16px;
+    line-height: 1em;
+    color: #fff;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    opacity: 0; }
+    @media all and (min-width: 780px) {
+      .day-list__cta {
+        margin-top: 35px;
+        font-size: 20px; } }
+    @media all and (min-width: 1650px) and (min-height: 1070px) {
+      .day-list__cta {
+        margin-top: 50px; } }
+  .day-list__header {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .day-list__album {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #fac8fa;
+    box-shadow: 2px 4px 3px 2px rgba(50, 50, 50, 0.15);
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    display: none; }
+    .day-list__album:nth-child(2) {
+      background-color: #003264; }
+    .day-list__album:nth-child(3) {
+      background-color: #fa4b4b; }
+    @media all and (min-width: 780px) {
+      .day-list__album {
+        display: block; } }
+  .day-list__artists {
+    display: none;
+    width: 100%;
+    position: relative;
+    top: 100%;
+    margin-top: 300px; }
+
+.day-numbers {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  opacity: 0; }
+  @media all and (min-width: 780px) {
+    .day-numbers {
+      bottom: 30px; } }
+  .day-numbers__line {
+    width: 10px;
+    height: 2px;
+    background-color: #00affa;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  .day-numbers__number {
+    color: #003264;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 2px 0 4px;
+    font-weight: 600;
+    margin-right: 8px;
+    letter-spacing: .1em;
+    font-family: "Adelle SansW01-Light";
+    transition: color .3s linear; }
+    @media all and (min-width: 780px) {
+      .day-numbers__number {
+        font-size: 20px;
+        margin-right: 13px; } }
+    .day-numbers__number--disabled {
+      color: #ccc !important; }
+    .day-numbers__number--selected, .day-numbers__number:hover {
+      color: #00affa; }
+    .day-numbers__number--selected.teal, .day-numbers__number:hover.teal {
+      color: #32e1e1; }
+    .day-numbers__number--selected.pink, .day-numbers__number:hover.pink {
+      color: #fac8fa; }
+  .day-numbers .day-numbers__number--disabled.day-numbers__number--selected {
+    border-color: #ccc !important; }
+
+.menu {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 4;
+  display: none; }
+  .menu--show {
+    display: block; }
+  .menu__bg {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #32e1e1; }
+  .menu__text-container {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding-top: 80px;
+    opacity: 0; }
+    @media all and (min-width: 760px) {
+      .menu__text-container {
+        padding-top: 120px; } }
+  .menu__button-list {
+    font-size: 21px;
+    color: #003264;
+    font-family: "Adelle SansW01-Light";
+    text-align: center; }
+    @media all and (min-width: 760px) {
+      .menu__button-list {
+        font-size: 36px; } }
+  .menu__button {
+    cursor: pointer;
+    transition: color .15s linear; }
+    .menu__button--selected, .menu__button:hover {
+      color: #fff; }
+  .menu__content {
+    display: none;
+    margin-top: 100px;
+    color: #003264; }
+    .menu__content--selected {
+      display: block; }
+    .menu__content p {
+      color: #003264;
+      font-family: "Adelle SansW01-Light";
+      margin: 10px 0 0;
+      font-size: 14px; }
+      @media all and (min-width: 760px) {
+        .menu__content p {
+          font-size: 16px; } }
+  .menu__artist-grid {
+    padding: 0 20px; }
+    @media all and (min-width: 750px) {
+      .menu__artist-grid {
+        padding: 0; } }
+  .menu__artist-details {
+    float: left;
+    text-align: center;
+    margin-bottom: 12px; }
+    @media all and (min-width: 330px) {
+      .menu__artist-details {
+        margin-bottom: 15px; } }
+    @media all and (max-width: 739px) {
+      .menu__artist-details {
+        width: 33%; }
+        .menu__artist-details:nth-child(3n+1) {
+          clear: left; } }
+    @media all and (min-width: 740px) {
+      .menu__artist-details {
+        width: 33%;
+        margin-bottom: 20px; } }
+    @media all and (min-width: 1100px) {
+      .menu__artist-details {
+        width: 25%;
+        margin-bottom: 30px; } }
+  .menu__artist-name {
+    font-size: 12px;
+    display: inline-block;
+    color: #003264;
+    line-height: 1em;
+    margin-bottom: 4px; }
+    @media all and (min-width: 330px) {
+      .menu__artist-name {
+        font-size: 14px; } }
+    @media all and (max-width: 739px) {
+      .menu__artist-name {
+        line-height: 1.1em;
+        text-decoration: underline; } }
+    @media all and (min-width: 740px) {
+      .menu__artist-name {
+        border-bottom: 1px solid #003264;
+        transition: border-color .15s linear; }
+        .menu__artist-name:hover {
+          border-bottom-color: transparent; } }
+    @media all and (min-width: 550px) {
+      .menu__artist-name {
+        font-size: 18px; } }
+    @media all and (min-width: 1100px) {
+      .menu__artist-name {
+        font-size: 20px; } }
+  .menu__artist-city {
+    font-size: 10px;
+    display: block; }
+    @media all and (min-width: 740px) {
+      .menu__artist-city {
+        font-size: 12px; } }
+  .menu__col-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; }
+    @media all and (min-width: 1100px) {
+      .menu__col-container {
+        padding: 0;
+        width: 780px; } }
+  .menu__col {
+    width: 100%; }
+    .menu__col:first-child {
+      margin-bottom: 25px; }
+    @media all and (min-width: 1100px) {
+      .menu__col {
+        width: 245px;
+        float: left; }
+        .menu__col:first-child {
+          width: 470px;
+          margin-right: 60px;
+          margin-bottom: 0; } }
+    .menu__col a {
+      color: #003264;
+      border-bottom: 1px solid #003264;
+      line-height: 1.2em;
+      display: inline-block;
+      transition: border-color .15s linear; }
+      .menu__col a:hover {
+        border-bottom-color: transparent; }
+  .menu__subtitle {
+    font-size: 18px;
+    display: block;
+    font-family: "Clearface ITC W01"; }
+    @media all and (min-width: 760px) {
+      .menu__subtitle {
+        font-size: 24px; } }
+    @media all and (min-width: 1100px) {
+      .menu__subtitle {
+        font-size: 30px; } }
+
+.album {
+  margin-bottom: 100px; }
+  @media all and (min-width: 1100px) {
+    .album {
+      margin-bottom: 0; } }
+  .album--footer {
+    position: relative;
+    margin-bottom: 0; }
+    @media all and (max-width: 1099px) {
+      .album--footer {
+        padding: 150px 0 170px; } }
+    .album--footer .album__copyright {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      color: #d0d0d0;
+      font-size: 12px;
+      font-family: "Adelle SansW01-Light"; }
+    .album--footer .album__label {
+      color: #003264;
+      display: block;
+      text-align: center;
+      font-family: "Clearface ITC W01 Bold";
+      font-size: 24px;
+      margin-bottom: 20px; }
+      @media all and (min-width: 1100px) {
+        .album--footer .album__label {
+          margin-bottom: 35px; } }
+    .album--footer .album__cta-container {
+      text-align: center; }
+    .album--footer .album__cta {
+      background-color: #32e1e1;
+      color: #fff;
+      padding: 14px 20px 15px;
+      border-radius: 30px;
+      font-family: "Adelle SansW01-Light";
+      margin-left: 6px;
+      font-size: 12px;
+      line-height: 1em;
+      display: inline-block;
+      margin-bottom: 10px;
+      transition: background-color .15s linear; }
+      .album--footer .album__cta--blue {
+        background-color: #00affa; }
+      .album--footer .album__cta:first-child {
+        margin-left: 0; }
+      .album--footer .album__cta:hover {
+        background-color: #003264; }
+      @media all and (min-width: 1100px) {
+        .album--footer .album__cta {
+          font-size: 16px;
+          display: inline;
+          margin-bottom: 0; } }
+    @media all and (min-width: 720px) and (max-width: 1099px) {
+      .album--footer .album__col {
+        float: left;
+        width: 270px; }
+        .album--footer .album__col:first-child {
+          margin-right: 100px; } }
+    @media all and (min-width: 720px) {
+      .album--footer .album__col:first-child {
+        position: relative; }
+        .album--footer .album__col:first-child:after {
+          content: "";
+          display: block;
+          width: 1px;
+          height: 190px;
+          background-color: #003264;
+          position: absolute;
+          right: -50px;
+          top: -45px; } }
+  .album__col {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto; }
+    .album__col:first-child {
+      margin-bottom: 20px; }
+      @media all and (min-width: 1100px) {
+        .album__col:first-child {
+          margin-right: 100px;
+          margin-bottom: 0; } }
+    @media all and (min-width: 350px) {
+      .album__col {
+        width: 330px; } }
+    @media all and (min-width: 740px) {
+      .album__col {
+        width: 460px; } }
+    @media all and (min-width: 1100px) {
+      .album__col {
+        width: 460px;
+        float: left;
+        margin-left: 0;
+        margin-right: 0; } }
+    @media all and (min-width: 1300px) {
+      .album__col {
+        width: 560px; } }
+    @media all and (min-width: 1500px) {
+      .album__col {
+        width: 660px; } }
+  .album__artwork {
+    width: 280px;
+    height: 280px;
+    background-color: #fac8fa;
+    box-shadow: 2px 4px 3px 2px rgba(50, 50, 50, 0.15); }
+    @media all and (min-width: 350px) {
+      .album__artwork {
+        width: 330px;
+        height: 330px; } }
+    @media all and (min-width: 740px) {
+      .album__artwork {
+        width: 460px;
+        height: 460px; } }
+    @media all and (min-width: 1100px) {
+      .album__artwork {
+        width: 460px;
+        height: 460px; } }
+    @media all and (min-width: 1300px) {
+      .album__artwork {
+        width: 560px;
+        height: 560px; } }
+    @media all and (min-width: 1500px) {
+      .album__artwork {
+        width: 660px;
+        height: 660px; } }
+  .album__text-container {
+    color: #003264; }
+  .album__number {
+    font-size: 24px;
+    display: inline-block;
+    border-bottom: 2px solid #003264;
+    margin-bottom: 30px;
+    font-family: "Adelle SansW01-Light"; }
+    @media all and (min-width: 1100px) {
+      .album__number {
+        font-size: 28px; } }
+    @media all and (min-width: 1300px) {
+      .album__number {
+        font-size: 36px; } }
+  .album__name {
+    font-size: 24px;
+    display: block;
+    font-family: "Clearface ITC W01 Bold";
+    line-height: 1em;
+    margin-bottom: 5px; }
+    @media all and (min-width: 1100px) {
+      .album__name {
+        font-size: 28px; } }
+    @media all and (min-width: 1300px) {
+      .album__name {
+        font-size: 40px; } }
+  .album__band {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 25px;
+    font-family: "Clearface ITC W01"; }
+    @media all and (min-width: 1100px) {
+      .album__band {
+        font-size: 18px; } }
+    @media all and (min-width: 1300px) {
+      .album__band {
+        font-size: 30px; } }
+  .album__designer {
+    display: block;
+    margin-bottom: 25px;
+    font-family: "Clearface ITC W01"; }
+    .album__designer a,
+    .album__designer span {
+      color: #003264;
+      font-family: "Adelle SansW01-Regular";
+      cursor: pointer;
+      border-bottom: 1px solid #003264;
+      line-height: 1em;
+      display: inline-block;
+      transition: border-color .15s linear; }
+      .album__designer a:hover,
+      .album__designer span:hover {
+        border-color: transparent; }
+  .album__description {
+    margin: 0;
+    font-family: "Clearface ITC W01";
+    line-height: 1.4em; }
+  .album__play-container {
+    height: 38px;
+    margin-top: 30px;
+    overflow: hidden;
+    display: none;
+    cursor: pointer; }
+    @media all and (min-width: 1100px) {
+      .album__play-container {
+        display: inline-block; } }
+    .album__play-container:hover .album__spotify:after {
+      opacity: 1; }
+    .album__play-container--playing .album__spotify {
+      background-position: -38px 0; }
+      .album__play-container--playing .album__spotify:after {
+        background-position: -38px -38px; }
+  .album__play-button {
+    float: left;
+    margin: 8px 0 0 15px;
+    color: #003264;
+    display: none; }
+    @media all and (min-width: 550px) {
+      .album__play-button {
+        display: block; } }
+  .album__spotify {
+    float: left;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url(../images/audio-sprite.png);
+    background-repeat: no-repeat;
+    background-size: 76px 76px;
+    background-position: 0 0; }
+    .album__spotify:after {
+      content: "";
+      display: block;
+      width: 38px;
+      height: 38px;
+      background-image: url(../images/audio-sprite.png);
+      background-repeat: no-repeat;
+      background-size: 76px 76px;
+      background-position: 0 -38px;
+      opacity: 0;
+      transition: opacity .15s linear; }
+    .album__spotify iframe {
+      border: none;
+      width: 80px;
+      height: 80px;
+      margin: -1px 0 0 -1px; }
+
+.artist-panel {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 6; }
+  .artist-panel__bg {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 50, 100, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 0;
+    cursor: pointer; }
+  .artist-panel__sidebar {
+    width: 280px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 25px; }
+    @media all and (min-width: 540px) {
+      .artist-panel__sidebar {
+        width: 460px;
+        padding: 50px; } }
+    .artist-panel__sidebar .album__artwork {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+      width: 230px;
+      height: 230px;
+      background-color: #f0f0f0;
+      position: relative; }
+      @media all and (min-width: 540px) {
+        .artist-panel__sidebar .album__artwork {
+          width: 361px;
+          height: 361px; } }
+      .artist-panel__sidebar .album__artwork:last-child {
+        margin-bottom: 0; }
+  .artist-panel__name {
+    font-family: "Clearface ITC W01 Bold";
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: #003264;
+    width: 230px; }
+    @media all and (min-width: 540px) {
+      .artist-panel__name {
+        font-size: 30px;
+        width: 361px;
+        margin-bottom: 70px;
+        margin-top: 20px; } }
+  .artist-panel__box {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px; }
+    @media all and (min-width: 540px) {
+      .artist-panel__box {
+        width: 361px;
+        height: 361px; } }
+    .artist-panel__box:last-child {
+      margin-bottom: 0; }
+  .artist-panel__box-num {
+    font-family: "Clearface ITC W01 Bold";
+    color: #fff;
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    line-height: 1em;
+    width: 100%;
+    top: 50%;
+    margin-top: -30px;
+    position: absolute; }
+  .artist-panel__close-x {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: -20px 0 0 -17px;
+    padding: 17px;
+    cursor: pointer;
+    z-index: 1; }
+    @media all and (min-width: 540px) {
+      .artist-panel__close-x {
+        position: fixed;
+        margin: -40px 0 0 -50px; } }
+    .artist-panel__close-x img {
+      width: 16px;
+      transition: transform .2s ease-in-out; }
+    .artist-panel__close-x:hover img {
+      transform: rotate(90deg); }

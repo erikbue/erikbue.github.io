@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erik Bue &mdash; BUEsic</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-74818550-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+
+  <body class="body">
+
+  	<nav>
+	    <div class="primary-nav">
+	      <div class="container">
+	        <a href="http://erikbue.com" class="bue2">Erik Bue</a>
+	        
+	    </div>
+        </div>
+  	</nav>
+
+	<section class="project-info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="project-title">BUEsic</div>
+					<div class="weblink"><a href="http://buesic.com" class="hoverline" target="_blank">Check out the tunes!</a></div>
+					<div class="project-text-title">Role</div>
+					<div class="project-text">Design, HTML/CSS (Thanks to Chris Manciero for JS help)</div>
+					<div class="project-text-title">Overview</div>
+					<div class="project-text">BUEsic is a personal playlist where I post a new set of songs each week that I like or think others might like. It started as a simple design exploration, then turned into a coding experiment, and then, all of the sudden, it was a real, working site.</div>
+				</div>
+
+				<div class="col-md-12 image-mb">
+				    <video width="100%" height="auto" autoplay loop>
+                      <source src="images/Buesic/buesic.mp4" type="video/mp4">
+                    </video>
+<!--					<img src="images/Buesic/buesic.jpg" class="img-responsive image-mb image-mt">-->
+				</div>
+
+				<div class="col-md-6 col-md-offset-3">
+					<div class="project-text-title">Process</div>
+					<div class="project-text">I've always been a huge music fan, so I was looking for a way to share that passion with the people around me. I figured that a playlist type of site would be a good way to showcase some of my music taste and allow others to discover music that they may not normally listen to. The design stems from my love of album artwork and the realization that it sometimes gets lost in all the streaming services that we use. I chose a layout that would allow me to show the artwork prominently, while also maintaining a balance with the rest of the content. I really wanted to expose the album artwork in other ways as well, especially in regards to the color palette. I thought about pulling prominent colors from the artwork to use within the typography, but because of the variety in cover design, this wouldn't scale. Instead, I took the current artwork and blurred it in the background, allowing me to enhance the artwork in a subtle and cohesive manner.</div>
+				</div>
+
+				<div class="col-md-12">
+					<img src="images/Buesic/buesic2.jpg" class="img-responsive image-mb image-mt">
+				</div>
+				<div class="col-md-4 col-md-offset-4">
+                    <a href="http://erikbue.com/exercisetracker">
+                        <div class="next">
+                        <span>NEXT &mdash;</span> TrackMyFitness: Exercise Tracker
+                        </div>
+                    </a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+    
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-7 col-md-offset-1 col-md-push-4 col-sm-7 col-sm-push-5">
+                    <div class="footer-project-title">PROJECTS &mdash;</div>
+                    <div class="footer-project"><a href="http://erikbue.com/favoritealbums-2016" target="_blank">My Favorite Albums: 2016</a></div>
+                    <div class="footer-project"><a href="http://erikbue.com/facebook">Facebook</a></div>
+                    <div class="footer-project"><a href="http://erikbue.com/buesic">BUEsic</a></div>
+                    <div class="footer-project"><a href="http://erikbue.com/exercisetracker">TrackMyFitness: <span>Exercise Tracker</span></a></div>
+                    <div class="footer-project"><a href="http://erikbue.com/personaltrainer">TrackMyFitness: <span>Personal Trainer</span></a></div>
+                    <div class="footer-project"><a href="http://erikbue.com/trackmygolf">TrackMyGolf</a></div>
+                    <div class="footer-project"><a href="http://erikbue.com/scouting">SAP Scouting</a></div>
+                    <!-- <div class="footer-project"><a href="http://erikbue.com/vyo">Vyo</a></div> -->
+                </div>
+                <div class="col-md-4 col-md-pull-8 col-sm-5 col-sm-pull-7">
+                    <div class="copyright1">&copy; Erik Bue</div>
+                    <div class="copyright2">Developed by me with code only a mother could love.</div>
+                </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/main2.js"></script>
+    <script src="js/scroll.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+    // Get page title
+      var pageTitle = $("title").text();
+
+    // Change page title on blur
+    $(window).blur(function() {
+      $("title").text("Baby come back...");
+    });
+
+    // Change page title back on focus
+    $(window).focus(function() {
+      $("title").text(pageTitle);
+    });
+  });
+    </script>
+    	
+      
+
+  </body>
+</html>
